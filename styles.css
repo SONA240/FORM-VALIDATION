@@ -1,0 +1,43 @@
+/* Background gradient */
+.background-gradient {
+  background: linear-gradient(135deg, #01c9c5, #00b2f5);
+}
+
+/* Form card styling */
+.form-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Form title styling */
+.form-title {
+  font-weight: 700;
+  color: #007bff;
+}
+
+/* Underline input style */
+.underline-input {
+  border: none;
+  border-bottom: 2px solid #00b2f5;
+  border-radius: 0;
+  margin-bottom: 1rem;
+  box-shadow: none !important;
+}
+.underline-input:focus {
+  border-bottom: 2px solid #007bff;
+}
+
+/* Create button styling */
+.create-btn {
+  background: linear-gradient(to right, #01c9c5, #00b2f5);
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.create-btn:hover {
+  background: linear-gradient(to right, #00b2f5, #01c9c5);
+}
